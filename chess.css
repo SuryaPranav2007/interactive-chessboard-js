@@ -27,7 +27,7 @@ ul {
 li {
     display: grid;
     place-items: center;
-    font-size: 16px;
+    font-size: 0px;
 }
 
 .box {
