@@ -8,9 +8,9 @@ body {
     display: grid;
     place-items: center;
     overflow-x: hidden;
-    background-image: url("/images.jpeg");
+    background-image: url("/21359716.jpeg");
     background-position: 100px;
-    background-size:cover;
+    background-size:contain;
 }
 
 ul {
@@ -31,8 +31,8 @@ li {
 }
 
 .box {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
 }
 
 
