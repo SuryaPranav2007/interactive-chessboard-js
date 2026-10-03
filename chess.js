@@ -83,6 +83,12 @@ document.querySelectorAll('.box').forEach(box => {
             return
         }
 
+        const destinationPiece = box.textContent.trim()
+
+        if (destinationPiece.length !== 0 &&destinationPiece[0] === selectedPiece[0]){
+        return;
+        }
+        
         // move selected piece here (overwrites whatever was on this square)
         const originBox = document.getElementById(selectedId)
         originBox.style.outline = 'none'
